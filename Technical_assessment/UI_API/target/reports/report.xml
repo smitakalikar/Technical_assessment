@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="64.041502">
+<testcase classname="Search functionality of service centre" name="Appy for number plate" time="30.924817">
+<system-out><![CDATA[Given user navigates to the service now home page...........................passed
+When user searches for Apply for a number plate on the home page............passed
+And clicks the apply-number-plate page......................................passed
+Then user should be landed on the appropriate page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality of service centre" name="Search the service centre" time="33.116685">
+<system-out><![CDATA[Given user navigates to the service now home page...........................passed
+And clicks on Locate us link................................................passed
+When user enters Sydney 2000................................................passed
+Then It should be available service centre named as Marrickville Service Centre.passed
+]]></system-out>
+</testcase>
+</testsuite>

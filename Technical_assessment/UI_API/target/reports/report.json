@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Appy for number plate",
+        "description": "",
+        "id": "search-functionality-of-service-centre;appy-for-number-plate;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23812318999,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the service now home page",
+            "match": {
+              "location": "ServicenowSteps.user_navigates_to_the_service_now_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2854864959,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches for Apply for a number plate on the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apply for a number plate",
+                  "offset": 18
+                }
+              ],
+              "location": "ServicenowSteps.user_searches_for_Apply_for_a_number_plate_on_the_home_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4241938265,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the apply-number-plate page",
+            "match": {
+              "arguments": [
+                {
+                  "val": " apply-number-plate",
+                  "offset": 10
+                }
+              ],
+              "location": "ServicenowSteps.clicks_the_searchmsg_page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15694447,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be landed on the appropriate page",
+            "match": {
+              "location": "ServicenowSteps.user_should_be_landed_on_the_appropriate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Search the service centre",
+        "description": "",
+        "id": "search-functionality-of-service-centre;search-the-service-centre;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20173469044,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user navigates to the service now home page",
+            "match": {
+              "location": "ServicenowSteps.user_navigates_to_the_service_now_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11593405524,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicks on Locate us link",
+            "match": {
+              "location": "ServicenowSteps.clicks_on_Locate_us_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273940108,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters Sydney 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 19
+                }
+              ],
+              "location": "ServicenowSteps.user_enters_Sydney(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1075870589,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "It should be available service centre named as Marrickville Service Centre",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Marrickville Service Centre",
+                  "offset": 47
+                }
+              ],
+              "location": "ServicenowSteps.it_should_be_available_service_centre_named_list(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality of service centre",
+    "description": "",
+    "id": "search-functionality-of-service-centre",
+    "keyword": "Feature",
+    "uri": "locateservicecentre.feature"
+  },
+  {
+    "line": 1,
+    "name": "Weather API Test",
+    "description": "",
+    "id": "weather-api-test",
+    "keyword": "Feature",
+    "uri": "weatherAPI.feature"
+  }
+]
